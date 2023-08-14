@@ -1,6 +1,9 @@
 # RustyDSA
 
 ### [Stack](./src/data_structure/stack.rs)
+
+[stack]: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lifo_stack.png/700px-Lifo_stack.png
+
 A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. 
 Elements are added and removed from the top, or "topmost" end of the stack. It operates like a collection of items stacked on top of each other, where the last item added is the first to be removed. 
 Stacks are used in various applications, such as managing function calls in programming, tracking navigation history, and implementing undo operations. 
