@@ -2,7 +2,9 @@
 name = "RustyDSA"
 version = "0.1.0"
 authors = ["mefreanzy"]
-edition = "2021"
+edition = "2018"
+description = "A libary for Rust data structure."
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
