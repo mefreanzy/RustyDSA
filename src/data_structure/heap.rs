@@ -18,6 +18,7 @@ impl<T: PartialOrd> Heap<T>
     /// # Examples
     ///
     /// ```
+    /// use RustyDSA::data_structure::heap::Heap;
     /// let heap: Heap<i32> = Heap::new();
     /// ```
     pub fn new() -> Self
@@ -32,6 +33,7 @@ impl<T: PartialOrd> Heap<T>
     /// # Examples
     ///
     /// ```
+    /// use RustyDSA::data_structure::heap::Heap;
     /// let mut heap: Heap<i32> = Heap::new();
     /// heap.push(4);
     /// heap.push(5);
@@ -40,6 +42,11 @@ impl<T: PartialOrd> Heap<T>
     pub fn push(&mut self, element: T)
     {
         self.data.push(element);
+    }
+
+    pub fn peek(&self) -> Option<&T>
+    {
+        self.data.get(0)
     }
 
     pub fn heapify(&mut self, n: usize, i: usize)
@@ -71,6 +78,7 @@ impl<T: PartialOrd> Heap<T>
     /// # Examples
     ///
     /// ```
+    /// use RustyDSA::data_structure::heap::Heap;
     /// let mut heap: Heap<i32> = Heap::new();
     /// heap.push(4);
     /// heap.push(5);
@@ -98,7 +106,7 @@ impl<T: PartialOrd> Heap<T>
 #[cfg(test)]
 mod test
 {
-    use super::*;
+    use super::Heap;
     fn test_heap()
     {
         let mut heap: Heap<i32> = Heap::new();

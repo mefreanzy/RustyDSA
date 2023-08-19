@@ -18,6 +18,7 @@ impl<T> Stack<T>
     /// # Examples
     ///
     /// ```
+    /// use RustyDSA::data_structure::stack::Stack;
     /// let stack: Stack<i32> = Stack::new();
     /// ```
     pub fn new() -> Self
@@ -32,9 +33,10 @@ impl<T> Stack<T>
     /// # Examples
     ///
     /// ```
+    /// use RustyDSA::data_structure::stack::Stack;
     /// let mut stack: Stack<i32> = Stack::new();
     /// stack.push(1);
-    /// assert!(!is_null());
+    /// assert!(!stack.is_null());
     /// ```
     pub fn push(&mut self, element: T)
     {
@@ -47,6 +49,7 @@ impl<T> Stack<T>
     /// # Examples
     ///
     /// ```
+    /// use RustyDSA::data_structure::stack::Stack;
     /// let mut stack: Stack<i32> = Stack::new();
     /// stack.push(1);
     /// let element = stack.pop();
@@ -62,6 +65,7 @@ impl<T> Stack<T>
     /// # Examples
     ///
     /// ```
+    /// use RustyDSA::data_structure::stack::Stack;
     /// let mut stack: Stack<i32> = Stack::new();
     /// stack.push(1);
     /// assert!(!stack.is_null());
@@ -77,6 +81,7 @@ impl<T> Stack<T>
     /// # Examples
     ///
     /// ```
+    /// use RustyDSA::data_structure::stack::Stack;
     /// let mut stack: Stack<i32> = Stack::new();
     /// stack.push(1);
     /// assert_eq!(stack.peek(), Some(&1));
@@ -90,7 +95,7 @@ impl<T> Stack<T>
 #[cfg(test)]
 mod test
 {
-    use super::*;
+    use super::Stack;
     #[test]
     fn test_stack()
     {

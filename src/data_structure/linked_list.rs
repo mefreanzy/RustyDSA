@@ -12,7 +12,7 @@ pub struct List<T>
     len: usize,
 }
 
-impl<T> LinkedList<T>
+impl<T> List<T>
 {
     fn new() -> Self
     {
@@ -59,9 +59,7 @@ impl<T> LinkedList<T>
 #[cfg(test)]
 mod test
 {
-    mod queue;
-    mod stack;
-    mod heap;
+    use super::List as LinkedList;
     #[test]
     fn test_linked_list()
     {

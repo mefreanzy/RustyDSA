@@ -20,6 +20,7 @@ impl<T> Queue<T>
     /// # Examples
     ///
     /// ```
+    /// use RustyDSA::data_structure::queue::Queue;
     /// let queue: Queue<i32> = Queue::new();
     /// ```
     pub fn new() -> Self
@@ -34,6 +35,7 @@ impl<T> Queue<T>
     /// # Examples
     ///
     /// ```
+    /// use RustyDSA::data_structure::queue::Queue;
     /// let mut queue: Queue<i32> = Queue::new();
     /// queue.enqueue(1);
     /// assert_eq!(queue.peek(), Some(&1));
@@ -49,6 +51,7 @@ impl<T> Queue<T>
     /// # Examples
     ///
     /// ```
+    /// use RustyDSA::data_structure::queue::Queue;
     /// let mut queue: Queue<i32> = Queue::new();
     /// queue.enqueue(1);
     /// let element = queue.dequeue();
@@ -64,6 +67,7 @@ impl<T> Queue<T>
     /// # Examples
     ///
     /// ```
+    /// use RustyDSA::data_structure::queue::Queue;
     /// let mut queue: Queue<i32> = Queue::new();
     /// queue.enqueue(1);
     /// assert!(!queue.is_null());
@@ -79,6 +83,7 @@ impl<T> Queue<T>
     /// # Examples
     ///
     /// ```
+    /// use RustyDSA::data_structure::queue::Queue;
     /// let mut queue: Queue<i32> = Queue::new();
     /// queue.enqueue(1);
     /// assert_eq!(queue.peek(), Some(&1));
@@ -92,7 +97,7 @@ impl<T> Queue<T>
 #[cfg(test)]
 mod test
 {
-    use super::*;
+    use super::Queue;
     fn test_queue()
     {
         let mut queue: Queue<i32> = Queue::new();
