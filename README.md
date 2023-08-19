@@ -27,3 +27,12 @@ Now that you have the library installed, you can import and use it in your Rust 
 use RustyDSA;
 ```
 
+# Contributing
+
+We welcome contributions! If you'd like to contribute to this Rust project, please follow these steps:
+
+1. Fork the repository and create a new branch.
+2. Make your changes and test thoroughly.
+3. Submit a pull request, describing the changes you've m
+
+### [License](.LICENSE)
