@@ -8,7 +8,7 @@ Common operations on a stack include push (adding an element), pop (removing the
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
 * [Geeksforgeeks](https://www.geeksforgeeks.org/stack-data-structure/)
-* [Tutorialsoint](https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm)
+* [Tutorialspoint](https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm)
 * [StudyTonight](https://www.studytonight.com/data-structures/stack-data-structure)
 
 ### [Heap](./src/data_structure/heap.rs)
@@ -25,3 +25,10 @@ A queue is a linear data structure that follows the First-In-First-Out (FIFO) pr
 * [Wikipedia](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
 * [Geeksforgeeks](https://www.geeksforgeeks.org/queue-data-structure/)
 * [Tutorialspoint](https://www.geeksforgeeks.org/queue-data-structure/)
+
+### [Linked List](./src/data_structure/linked_list.rs)
+A linked list is a linear data structure consisting of nodes, where each node contains an element and a reference (or link) to the next node in the sequence. Unlike arrays, linked lists do not require contiguous memory allocation. This allows for efficient insertions and deletions at any point in the list. Linked lists can be singly linked (each node points to the next) or doubly linked (each node points to both the next and previous nodes), enabling traversal in both directions. They are commonly used in scenarios where dynamic size changes and efficient insertions/deletions are important, like implementing stacks, queues, and hash tables.
+
+* [Wikipedia](https://en.wikipedia.org/wiki/Linked_list#:~:text=In%20computer%20science%2C%20a%20linked,which%20together%20represent%20a%20sequence.)
+* [Geeksforgeek](https://www.geeksforgeeks.org/data-structures/linked-list/)
+* [Tutorialspoint](https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm)
